@@ -1,0 +1,17 @@
+{
+    "PATCH_SIZE": 512,
+    "norm_stats": {
+        "VV_mean": -31.315275,
+        "VV_std": 7.87874,
+        "VH_mean": -19.719892,
+        "VH_std": 6.16873
+    },
+    "OVERSAMPLE_RATIO": "1:1",
+    "BEST_AUG": "aug_v1",
+    "BEST_AUG_DESCRIPTION": "\u0411\u0435\u0437 \u0430\u0443\u0433\u043c\u0435\u043d\u0442\u0430\u0446\u0438\u0439 - \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u0435\u0440\u0435\u0432\u043e\u0434 \u0432 \u0442\u0435\u043d\u0437\u043e\u0440 (ToTensorV2)",
+    "BEST_LOSS": "bce_dice",
+    "BEST_LOSS_PARAMS": {
+        "bce_weight": 0.6391963650868431,
+        "pos_weight": 22.959754525911098
+    }
+}
